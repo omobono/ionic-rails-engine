@@ -2,7 +2,7 @@
 Make [Ionic Framework](http://ionicframework.com) into Rails Engine. 
 
 ## Version
-Ionic Framework 0.9.26 (alpha preview)
+Ionic Framework 1.0.0-beta.11
 
 ## Rails 4 or later
 Include Gemfile,
