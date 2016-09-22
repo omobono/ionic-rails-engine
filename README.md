@@ -10,7 +10,7 @@ Ionic Framework 1.3.1 El Salvador (2016-05-12)
 
 Add to your Gemfile:
 
-    gem 'ionic-rails-engine'
+    gem 'ionic-rails-engine', git: 'git://github.com/omobono/ionic-rails-engine.git'
 
 Add the JavaScript into application.js:
 
