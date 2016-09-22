@@ -1,43 +1,36 @@
 # Ionic Framework for Rails 4
-Make [Ionic Framework](http://ionicframework.com) into Rails Engine. 
+
+[Ionic Framework](http://ionicframework.com) for Rails 4 and later. 
 
 ## Version
-Ionic Framework 1.0.0-beta.11
+
+Ionic Framework 1.3.1 El Salvador (2016-05-12)
 
 ## Rails 4 or later
-Include Gemfile,
+
+Add to your Gemfile:
 
     gem 'ionic-rails-engine'
 
-Add javascripts into application.js
+Add the JavaScript into application.js:
 
+    //= require angular/angular
+    //= require angular/angular-animate
+    //= require angular/angular-resource
+    //= require angular/angular-sanitize
+    //= require angular-ui/angular-ui-router
     //= require ionic/ionic
+    //= require ionic/ionic-angular
+    //= require ionicuirouter/ionicUIRouter
 
-Similiarly add stylesheet into application.css
+Add the stylesheet into application.css:
 
-## CDN (not supported yet)
-
-This gem supports cdn the same as [jquery-rails-cdn](https://github.com/yjchen/jquery-rails-cdn). In the application layout, add
-
-    = ionic_js_include_tag :default
-
-and remove corresponding lines in application.js.
-
-### Options
-
-Set :compressed to use minimized library locally like this:
-
-    = ionic_js_include_tag :default, :compressed => true
-
-Set :local_copy true to use local copy when CDN is not available.
-
-Remember to add assets name in confign/environments/production.rb:
-
-    config.assets.precompile += %w( ionic/ionic.min.js)
+     *= require ionic/ionic
 
 ## License
 
 Copyright (c) 2012-2013 Yen-Ju Chen
+Copyright (c) 2016 Omobono
 
 MIT License
 

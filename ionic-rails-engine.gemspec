@@ -5,9 +5,9 @@ Gem::Specification.new do |gem|
   gem.name        = "ionic-rails-engine"
   gem.version     = IonicRailsEngine::Rails::VERSION
   gem.platform    = Gem::Platform::RUBY
-  gem.authors     = ["Yen-Ju Chen"]
-  gem.email       = ["yjchenx@gmail.com"]
-  gem.homepage    = "https://github.com/yjchen/ionic-rails-engine"
+  gem.authors     = ["Omobono"]
+  gem.email       = ["developer@omobono.com"]
+  gem.homepage    = "https://github.com/omobono/ionic-rails-engine"
   gem.description = %q{Ionic Framework for Rails 4}
   gem.summary     = gem.description
   gem.license     = 'MIT'

@@ -1,5 +1,5 @@
 module IonicRailsEngine
   module Rails
-    VERSION = "0.9.9.11"
+    VERSION = "1.3.1"
   end
 end
